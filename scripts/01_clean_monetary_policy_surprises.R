@@ -1,5 +1,6 @@
-# Cleans raw monetary policy surprises data into a dataset of two columns: date
-# and hawkish_surprise (binary).
+# Cleans raw monetary policy surprises data into a dataset of following columns:
+# - date: Date, date of monetary policy announcement
+# - hawkish_surprise: integer (0 or 1)
 
 library(readxl)
 library(here)
